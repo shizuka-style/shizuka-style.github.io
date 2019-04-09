@@ -1,0 +1,144 @@
+li{
+  list-style:none;
+}
+*{
+  box-sizing:border-box;
+
+}
+body{
+  margin:0 auto;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',YuGothic,'Yu Gothic','メイリオ', Meiryo,sans-serif;
+    /* animation: fadeIn 2s ease 0s 1 normal;
+} */
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.header-left p {
+  position:absolute;
+  top:100px;
+  left:50px;
+  color:#fff;
+  font-size:50px;
+  font-family:"Times New Roman","Monotype Corsiva",Impact,fantasy;
+  font-style:italic;
+  animation: fadeIn 5s ease 0s 1 normal;
+}
+.colted{
+  display:inline-block;
+  width:500px;
+  padding:0px 0 0 50px;
+
+}
+.colted p{
+margin:0;
+  font-size:40px;
+  color:rgb(41, 73, 113);
+  font-family:"Times New Roman";
+  z-index:10;
+
+}
+.kabu{
+  font-size:40px;
+
+  line-height:100px;
+}
+.main h3{
+  text-align: center;
+  margin-top:10px;
+
+}
+.header-left{
+float:left;
+width:50%;
+border-bottom:1px solid #aaa;
+position:relative;
+animation: fadeIn 3s ease 0s 1 normal;
+background-image:url(build1.jpg);
+background-size:cover;
+width:50%;
+height:400px;
+
+}
+.toblog{
+ float:left;
+ color:#aaa;
+ padding:10px 30px;
+margin-left:10px;
+font-size:15px;
+text-decoration:none;
+}
+
+.header-list ul{
+  margin:0;
+  padding:0;
+}
+.header-list li:hover{
+  opacity:0.3;
+  transition:0.7s;
+
+}
+
+.container{
+  width: 100%;
+  background-color:rgba(34, 49, 52, 0.9);
+  padding:0 15px;
+  margin:0 auto;
+  width:100%;
+
+}
+.title1{
+  text-align:center;
+  font-size:14px;
+}
+.btn{
+  padding:8px 24px 8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  background-color:rgb(12, 30, 83);
+  text-decoration:none;
+  border-radius:4px;
+  line-height:30px;
+  letter-spacing:5px;
+  margin-left:200px;
+}
+.btn:hover{
+  opacity:0.6;
+
+}
+@media(max-width:1000px){
+.header-left{
+  width:100%;
+}
+.irai{
+  text-align:center;
+}
+.btn{
+  text-align:center;
+  margin-bottom:100px;
+  margin-left:0;
+}
+}
+@media(max-width:670px){
+  .header-left{
+    width:100%;
+  }
+  .btn{
+
+    text-align:center;
+    margin-bottom:100px;
+    margin-left:0;
+
+
+  }
+  text-align:center;
+}
